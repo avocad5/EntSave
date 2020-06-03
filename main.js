@@ -411,7 +411,7 @@ const blocks = [
       template: "%1 : %2 를 사용자의컴퓨터에 저장하기%3",
       skeleton: "basic",
       color: {
-        default: EntryStatic.colorSet.block.default.AI_UTILIZE
+        default: '#00FF80'
       },
       params: [
         {
