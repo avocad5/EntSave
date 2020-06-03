@@ -1,6 +1,7 @@
 //EntSave는 entblock 2.1과 매그넷블록을 참고해서 만들었습니다.
 //따라서 GPL 3.0 라이센스를 따릅니다.
-
+const savecolor = '#24B200';
+const getcolor = '#5F3900';
 const LibraryCreator = {
     start: (blocksJSON, category, text) => {
         let blockArray = new Array
@@ -411,7 +412,7 @@ const blocks = [
       template: "%1 : %2 를 사용자의컴퓨터에 저장하기%3",
       skeleton: "basic",
       color: {
-        default: '#00FF80'
+        default: savecolor
       },
       params: [
         {
@@ -448,7 +449,7 @@ const blocks = [
       template: "%1key와 value를 삭제하기%2",
       skeleton: "basic",
       color: {
-        default: EntryStatic.colorSet.block.default.AI_UTILIZE
+        default: savecolor
       },
       params: [
         {
@@ -478,7 +479,7 @@ const blocks = [
       template: "모든 key와 value 삭제하기%1",
       skeleton: "basic",
       color: {
-        default: EntryStatic.colorSet.block.default.AI_UTILIZE
+        default: savecolor
       },
       params: [
         {
@@ -524,7 +525,7 @@ const blocks = [
       template: "%1key를 가진 value값",
       skeleton: "basic_string_field",
       color: {
-        default: EntryStatic.colorSet.block.default.JUDGE
+        default: getcolor
       },
       params: [
         {
