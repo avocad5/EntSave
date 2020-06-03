@@ -359,7 +359,7 @@ const LibraryCreator = {
         if (typeof useWebGL == "undefined") {
             updateCategory(category)
             // 아이콘 적용
-            $('head').append(`<style>#entryCategory${category}{background-image:url(/lib/entry-js/images/variable.svg);background-repeat:no-repeat;margin-bottom:1px}.entrySelectedCategory#entryCategory${category}{background-image:url(/lib/entry-js/images/variable_on.svg);background-color:#8c22e3; color:#fff}</style>`)
+            $('head').append(`<style>#entryCategory${category}{background-image:url(/lib/entry-js/images/expansion.svg);background-repeat:no-repeat;margin-bottom:1px}.entrySelectedCategory#entryCategory${category}{background-image:url(/lib/entry-js/images/variable_on.svg);background-color:#8c22e3; color:#fff}</style>`)
             // 카테고리 이름 적용
             $(`#entryCategory${category}`).append(text)
         }
