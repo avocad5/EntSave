@@ -1,7 +1,8 @@
 //EntSave는 entblock 2.1과 매그넷블록을 참고해서 만들었습니다.
 //따라서 GPL 3.0 라이센스를 따릅니다.
-const savecolor = '#24B200';
+const savecolor = '#00CC66';
 const getcolor = '#5F3900';
+
 const LibraryCreator = {
     start: (blocksJSON, category, text) => {
         let blockArray = new Array
