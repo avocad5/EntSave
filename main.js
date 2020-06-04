@@ -419,12 +419,12 @@ const blocks = [
         {
           type: "Block",
           accept: "string",
-          value: "key"
+          value: "안녕"
         },
         {
           type: "Block",
           accept: "string",
-          value: "value"
+          value: "엔트리"
         },
         {
           type: 'Indicator',
@@ -456,7 +456,7 @@ const blocks = [
         {
           type: "Block",
           accept: "string",
-          value: "key"
+          value: ""
         },
         {
           type: 'Indicator',
