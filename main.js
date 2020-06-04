@@ -419,12 +419,12 @@ const blocks = [
         {
           type: "Block",
           accept: "string",
-          value: "엔트리봇"
+          value: "안녕"
         },
         {
           type: "Block",
           accept: "string",
-          value: "강아지"
+          value: "엔트리"
         },
         {
           type: 'Indicator',
@@ -456,7 +456,7 @@ const blocks = [
         {
           type: "Block",
           accept: "string",
-          value: "엔트리봇"
+          value: ""
         },
         {
           type: 'Indicator',
