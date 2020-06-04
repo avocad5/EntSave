@@ -532,7 +532,7 @@ const blocks = [
         {
           type: "Block",
           accept: "string",
-          value: ""
+          value: "안녕"
         }
       ],
       def: [],
