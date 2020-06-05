@@ -191,7 +191,7 @@ const blocks = [
         
         return localStorage.getItem(id+keydd);
       }
-    }
+    },
     {
       name: "getid",
       template: "이 작품의 아이디",
