@@ -2,7 +2,6 @@
 //따라서 GPL 3.0 라이센스를 따릅니다.
 const savecolor = '#00CC66';
 const getcolor = '#5F3900';
-import('https://avocad5.github.io/EntSave/addblock.js');
 
 const blocks = [
     {
