@@ -159,6 +159,38 @@ const blocks = [
         
         return localStorage.getItem(Entry.projectId+keydd);
       }
+    },
+    {
+      name: "getproject",
+      template: "%1id를 가진 작품의 %2key를 가진 value값",
+      skeleton: "basic_string_field",
+      color: {
+        default: getcolor
+      },
+      params: [
+        {
+          type: "Block",
+          accept: "string",
+          value: '10'
+        },
+        {
+          type: "Block",
+          accept: "string",
+          value: '안녕'
+        }
+      ],
+      def: [],
+      map: {
+        ID:0,
+        KEY:1
+      },
+      class: "get",
+      func: async(sprite, script) => {
+        let id = script.getValue("ID",script);
+        let keydd = script.getValue("KEY", script);
+        
+        return localStorage.getItem(id+keydd);
+      }
     }
 ]
 
