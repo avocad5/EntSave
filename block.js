@@ -551,4 +551,5 @@ const LibraryCreator = {
 }
 let blockPOST
 LibraryCreator.start(blocks, 'API', 'ES')
-console.log("EntSave설치가 완료되었습니다!\nEntSave를 활용해서 멋진작품을 만들어보세요 :)")
+alert("EntSave설치가 완료되었습니다!\nEntSave를 활용해서 멋진작품을 만들어보세요 :)")
+console.log('EntSave는 entblock 2.1과 매그넷블록을 참고해서 만들었습니다.\n따라서 GPL 3.0 라이센스를 따릅니다.')
