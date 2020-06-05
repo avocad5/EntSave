@@ -112,29 +112,6 @@ const blocks = [
         localStorage.removeItem(Entry.projectId+keydd);
       }
     },
-    {
-      name: 'clear',
-      template: "모든 key와 value 삭제하기%1",
-      skeleton: "basic",
-      color: {
-        default: savecolor
-      },
-      params: [
-        {
-          type: 'Indicator',
-          img: 'block_icon/hardware_icon.svg',
-          size: 11,
-        }
-      ],
-      def: [],
-      map: {
-      },
-      class: "save",
-      func: async(sprite, script) => {
-
-        localStorage.clear();
-      }
-    },
 
     //배열 카테고리
     {
