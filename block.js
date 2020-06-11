@@ -577,7 +577,7 @@ const LibraryCreator = {
 }
 let blockPOST
 alert('EntSave는 엔트리에서 원활한 정보저장을 위해서 localstorage를 사용합니다.\nEntSave에서 저장하는 정보는 엔트리내에서만 사용됩니다.')
-if(comfirm('localstorage사용에 동의하십니까?')){
+if(confirm('localstorage사용에 동의하십니까?')){
     LibraryCreator.start(blocks, 'API', 'ES')
     alert("EntSave설치가 완료되었습니다!\nEntSave를 활용해서 멋진작품을 만들어보세요 :)")
     console.log('EntSave는 entblock 2.1과 매그넷블록을 참고해서 만들었습니다.\n따라서 GPL 3.0 라이센스를 따릅니다.')
